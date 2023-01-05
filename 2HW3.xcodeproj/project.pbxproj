@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		CE31D7E32966073700591326 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31D7E22966073700591326 /* main.swift */; };
+		CE31D7EA2966090F00591326 /* students .swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31D7E92966090F00591326 /* students .swift */; };
+		CE31D7EC2966092400591326 /* teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31D7EB2966092400591326 /* teacher.swift */; };
+		CE31D7EE2966097700591326 /* database.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31D7ED2966097700591326 /* database.swift */; };
+		CE31D7F02966098A00591326 /* hospital .swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31D7EF2966098A00591326 /* hospital .swift */; };
+		CE31D7F2296609AA00591326 /* patient .swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31D7F1296609AA00591326 /* patient .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		CE31D7DF2966073700591326 /* 2HW3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 2HW3; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE31D7E22966073700591326 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CE31D7E92966090F00591326 /* students .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "students .swift"; sourceTree = "<group>"; };
+		CE31D7EB2966092400591326 /* teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teacher.swift; sourceTree = "<group>"; };
+		CE31D7ED2966097700591326 /* database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = database.swift; sourceTree = "<group>"; };
+		CE31D7EF2966098A00591326 /* hospital .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "hospital .swift"; sourceTree = "<group>"; };
+		CE31D7F1296609AA00591326 /* patient .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "patient .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				CE31D7E22966073700591326 /* main.swift */,
+				CE31D7F1296609AA00591326 /* patient .swift */,
+				CE31D7EF2966098A00591326 /* hospital .swift */,
+				CE31D7ED2966097700591326 /* database.swift */,
+				CE31D7EB2966092400591326 /* teacher.swift */,
+				CE31D7E92966090F00591326 /* students .swift */,
 			);
 			path = 2HW3;
 			sourceTree = "<group>";
@@ -120,7 +135,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE31D7EA2966090F00591326 /* students .swift in Sources */,
 				CE31D7E32966073700591326 /* main.swift in Sources */,
+				CE31D7F2296609AA00591326 /* patient .swift in Sources */,
+				CE31D7F02966098A00591326 /* hospital .swift in Sources */,
+				CE31D7EE2966097700591326 /* database.swift in Sources */,
+				CE31D7EC2966092400591326 /* teacher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
